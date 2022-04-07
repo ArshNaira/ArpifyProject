@@ -1,0 +1,13 @@
+table, th, td{
+    border: 1px solid black;
+    background-color: rgb(195, 223, 223);
+}
+th{
+    background-color: rgb(156, 182, 182);
+}
+.myRow{
+    background-color: rgb(234, 182, 234);
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(57, 57, 115);
+}
