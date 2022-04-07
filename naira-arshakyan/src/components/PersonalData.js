@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import PersElement from './PersElement';
 import style from './PersonalData.module.css';
+import {NavLink} from "react-router-dom";
 
 
 
@@ -32,8 +33,15 @@ const PersonalData=()=>{
                   <PersElement key={index.toString()} persDataRow={elem}  />
                   );
 
-    return (
+    return (        
          <div >
+
+<div >
+      <NavLink  to="/addingForm"><button className='addPersonBtn'  >Add New Person</button></NavLink> 
+      
+      </div>
+
+
              <table >
                  <thead>
                  <tr>
