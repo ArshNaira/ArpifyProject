@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.addPersonBtn{
+  margin: 30px  250px;
+  height: 30px;
+  width: 150px;
+  font-weight: 600;
+  background-color: #ddecf0;
+
+}
 
 @keyframes App-logo-spin {
   from {
